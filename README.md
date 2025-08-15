@@ -92,15 +92,14 @@ Decoding-Olympic-Glory-1896-2021/
 git clone https://github.com/yourusername/Decoding-Olympic-Glory-1896-2021.git
 cd Decoding-Olympic-Glory-1896-2021
 
-### 2️⃣ Install Dependencies
+2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-###3️⃣ Explore the EDA Notebook
+3️⃣ Explore the EDA Notebook
 jupyter notebook notebooks/eda.ipynb
 
-###4️⃣ Run the Model Notebook
+4️⃣ Run the Model Notebook
 jupyter notebook notebooks/model.ipynb
-
 
 📈 Results & Findings
 
@@ -111,4 +110,7 @@ Gender equality in participation has improved significantly post-1990s.
 Smaller nations like Jamaica and Kenya have exceptional medal efficiency.
 
 Predictive model achieves X% accuracy in medal count prediction.
+
+
+
 
