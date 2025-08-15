@@ -20,5 +20,24 @@ The project is divided into two main parts:
 ---
 
 ## 📂 Project Structure
+Decoding-Olympic-Glory-1896-2021/
+│
+├── notebooks/
+│ ├── eda.ipynb # Data cleaning, EDA, and visualizations
+│ ├── model.ipynb # Machine learning model training and evaluation
+│ └── data/olympics_data.csv # Raw dataset
+│
+├── model/
+│ └── best_model.pkl # Saved trained ML model
+│
+├── images/ # Project visualizations
+│ ├── gender split of medals by sport.png
+│ ├── medal count over time for selected country.png
+│ ├── participation by gender over the years.png
+│ ├── top 10 countries by total medals.png
+│ └── ...
+│
+├── README.md # Project documentation
+└── requirements.txt # Python dependencies
 
 
