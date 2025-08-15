@@ -1,87 +1,89 @@
 # 🏅 Decoding Olympic Glory (1896–2021)
 
-A data-driven exploration of **Olympic Games history** from **Athens 1896** to **Tokyo 2021**, uncovering trends in **medal counts**, **gender participation**, **sport diversity**, and **country performance efficiency** — complemented with a predictive model to estimate future medal tallies.
+This project offers a comprehensive, data-driven exploration of the **history of the Olympic Games** from **Athens 1896** to **Tokyo 2021**. It uncovers trends in **medal counts**, **gender participation**, **sport diversity**, and **country performance efficiency**, and includes a predictive model to estimate future medal tallies.
 
 ---
 
 ## 📌 Project Overview
 
-The Olympic Games have been a global sporting spectacle for over a century. This project combines **data analysis**, **visualization**, and **machine learning** to:
+The Olympic Games have captivated audiences worldwide for over a century. This project integrates **data analysis**, **visualization**, and **machine learning** to achieve the following objectives:
 
-- Explore **historical trends** in Olympic medal counts and participation.
-- Investigate **gender representation** in sports over time.
-- Identify **top-performing nations** and their medal efficiency.
-- Build and evaluate a **predictive model** for future medal counts.
+- Analyze **historical trends** in Olympic medal counts and athlete participation.
+- Examine **gender representation** in various sports over time.
+- Identify **top-performing nations** and assess their medal efficiency.
+- Develop and assess a **predictive model** for estimating future medal counts.
 
-The project is divided into two main parts:
-1. **Exploratory Data Analysis (EDA)** – Understanding the dataset and extracting insights.
-2. **Machine Learning Modeling** – Predicting medal counts using historical data.
+The project is structured into two primary components:
+1. **Exploratory Data Analysis (EDA)** – Gaining insights from the dataset through exploration and visualization.
+2. **Machine Learning Modeling** – Utilizing historical data to predict future medal counts.
 
 ---
 
 ## 📂 Project Structure
+
+```
 Decoding-Olympic-Glory-1896-2021/
 │
 ├── notebooks/
-│ ├── eda.ipynb # Data cleaning, EDA, and visualizations
-│ ├── model.ipynb # Machine learning model training and evaluation
-│ └── data/olympics_data.csv # Raw dataset
+│   ├── eda.ipynb                # Data cleaning, EDA, and visualizations
+│   ├── model.ipynb              # Machine learning model training and evaluation
+│   └── data/olympics_data.csv    # Raw dataset
 │
 ├── model/
-│ └── best_model.pkl # Saved trained ML model
+│   └── best_model.pkl            # Saved trained ML model
 │
-├── images/ # Project visualizations
-│ ├── gender split of medals by sport.png
-│ ├── medal count over time for selected country.png
-│ ├── participation by gender over the years.png
-│ ├── top 10 countries by total medals.png
-│ └── ...
+├── images/                       # Project visualizations
+│   ├── gender_split_of_medals_by_sport.png
+│   ├── medal_count_over_time_for_selected_country.png
+│   ├── participation_by_gender_over_the_years.png
+│   ├── top_10_countries_by_total_medals.png
+│   └── ...
 │
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies
-
+├── README.md                     # Project documentation
+└── requirements.txt              # Python dependencies
+```
 
 ---
 
 ## 📊 Key Analyses & Insights
 
 ### 1. **Top 10 Countries by Total Medals**
-- Bar charts showing the nations with the most cumulative Olympic success.
+- Bar charts illustrating the nations with the highest cumulative Olympic success.
 
 ### 2. **Total Medals Over the Years**
-- Line plot tracking the evolution of total medals awarded.
+- A line plot depicting the evolution of total medals awarded throughout the years.
 
 ### 3. **Gender Participation Trends**
-- Visualization of how male and female participation has evolved.
+- Visualizations showcasing the progression of male and female participation in the Olympics.
 
 ### 4. **Medal Efficiency**
-- Medals won per athlete — highlighting countries with high efficiency despite smaller delegations.
+- Analysis of medals won per athlete, highlighting countries that achieve high efficiency with smaller delegations.
 
 ### 5. **Sport-Specific Performance**
-- Medal distributions by sport and gender.
+- Distribution of medals by sport and gender, providing insights into performance across different disciplines.
 
 ---
 
 ## 🤖 Machine Learning Component
 
-**Goal:** Predict the number of medals a country might win in a future Olympics based on historical performance.
+**Objective:** To predict the number of medals a country may win in future Olympic Games based on historical performance data.
 
 **Workflow:**
-1. Feature engineering from historical medal and participation data.
+1. Feature engineering from historical medal and participation datasets.
 2. Model selection (e.g., Random Forest, Gradient Boosting).
-3. Hyperparameter tuning.
-4. Model evaluation (MAE, RMSE, R²).
-5. Export of best-performing model (`best_model.pkl`).
+3. Hyperparameter tuning for optimal performance.
+4. Model evaluation using metrics such as MAE, RMSE, and R².
+5. Exporting the best-performing model as `best_model.pkl`.
 
 ---
 
 ## 🛠 Tech Stack
 
 - **Python 3.8+**
-- **Pandas, NumPy** – Data manipulation
-- **Matplotlib, Seaborn** – Data visualization
-- **Scikit-learn** – Machine learning
-- **Jupyter Notebook** – Interactive development
+- **Pandas, NumPy** – For data manipulation
+- **Matplotlib, Seaborn** – For data visualization
+- **Scikit-learn** – For machine learning
+- **Jupyter Notebook** – For interactive development
 
 ---
 
@@ -91,26 +93,28 @@ Decoding-Olympic-Glory-1896-2021/
 ```bash
 git clone https://github.com/yourusername/Decoding-Olympic-Glory-1896-2021.git
 cd Decoding-Olympic-Glory-1896-2021
+```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Explore the EDA Notebook
+### 3️⃣ Explore the EDA Notebook
+```bash
 jupyter notebook notebooks/eda.ipynb
+```
 
-4️⃣ Run the Model Notebook
+### 4️⃣ Run the Model Notebook
+```bash
 jupyter notebook notebooks/model.ipynb
+```
 
-📈 Results & Findings
+### 📈 Results & Findings
+- The USA consistently leads in total medal counts.
+- Gender equality in participation has significantly improved since the 1990s.
+- Smaller nations like Jamaica and Kenya exhibit remarkable medal efficiency.
+- The predictive model achieves an accuracy of X% in forecasting medal counts.
 
-USA consistently dominates medal counts.
-
-Gender equality in participation has improved significantly post-1990s.
-
-Smaller nations like Jamaica and Kenya have exceptional medal efficiency.
-
-Predictive model achieves X% accuracy in medal count prediction.
-
-
-
+--- 
 
